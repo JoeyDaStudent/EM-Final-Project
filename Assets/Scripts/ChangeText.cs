@@ -7,20 +7,19 @@ public class ChangeText : MonoBehaviour
 {
     public TextMeshProUGUI subtitles;
 
-    // Update is called once per frame
-    void Update()
+    public void PhraseOne()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            subtitles.text = "Hello my name is Mr. Carrillo.";
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            subtitles.text = "Today we are going to talk about Lerp.";
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            subtitles.text = "Let's get started.";
-        }
+        subtitles.text = "Hello my name is Mr. Carrillo.";
     }
+
+     public void PhraseTwo()
+    {
+        subtitles.text = "Today we are going to talk about Lerp.";
+    }
+
+    public void PhraseThree()
+    {
+        subtitles.text = "Let's get started.";
+    }
+
 }
