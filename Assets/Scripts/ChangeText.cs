@@ -29,7 +29,7 @@ public class ChangeText : MonoBehaviour
 
     private void Start()
     {
-        size.maxValue = 100;
+        size.maxValue = .5f;
         red.maxValue = 1;
         green.maxValue = 1;
         blue.maxValue = 1;
